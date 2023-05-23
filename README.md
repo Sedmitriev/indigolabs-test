@@ -9,7 +9,7 @@
 Сборка и запуск проекта:
 
 ```bash
-cd /path/to/indigolabs-test && docker-compose up -d --build
+cd /path/to/indigolabs-test/docker && docker-compose up -d --build
 ```
 
 Подключиться к контейнеру indigolabs_test.php:
