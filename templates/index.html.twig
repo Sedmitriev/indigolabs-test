@@ -1,0 +1,9 @@
+{% extends('base.html.twig') %}
+
+{% block body %}
+    {% if isAuth %}
+        <div>Аутентифицирован</div>
+    {% else %}
+        <div><a href="http://t.me/indigolabs_test_bot">Ссылка на бота</a></div>
+    {% endif %}
+{% endblock %}

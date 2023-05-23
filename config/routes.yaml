@@ -1,3 +1,12 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+home:
+  path: /
+  controller: App\Controller\MainController::index
+signUp:
+  path:       /sign-up/{uuid}
+  controller: App\Controller\AuthController::signUp
+signIn:
+  path: /sign-in/{uuid}
+  controller: App\Controller\AuthController::signIn
